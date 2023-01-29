@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.container-header {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-home {
+    background-color: aqua;
+}
