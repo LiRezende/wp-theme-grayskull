@@ -14,3 +14,26 @@ body {
 .banner-home {
     background-color: aqua;
 }
+
+nav ul, nav li {
+    list-style: none!important;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    color:peru;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+
+nav a:hover {
+    color: turquoise;
+}

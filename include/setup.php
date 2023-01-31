@@ -10,7 +10,7 @@ function rg_theme_styles() {
 function rg_after_setup() {
     add_theme_support('title-tag');
     add_theme_support('custom-logo');  
-    register_nav_menu('top', 'Main Menu');
+    register_nav_menu('top', 'Main menu');
 }
 
 function rg_widgets() {
